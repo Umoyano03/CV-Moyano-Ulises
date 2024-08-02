@@ -1,0 +1,82 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+  }
+  
+  /* COLORES */
+  
+  /* background: lightblue; */
+  /* background: #003147; */
+  
+  
+  body {
+      background: lightblue;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      min-height: 100vh;
+  }
+  
+  /* PRIMERA PÁGINA */
+  
+  
+  .cv-container {
+      position: relative;
+      width: 100%;
+      max-width: 900px;
+      min-height: 900px;
+      background: #003147;
+      display: grid;
+      grid-template-columns: 0.9fr 2fr ;
+      margin: 20px 0px 0px 0px;
+  }
+  
+  .cv-container .left_Side {
+      height: 900px;
+      position: relative;
+      background: #003147;
+      padding: 40px;
+  }
+  
+  .cv-container .right_Side {
+      height: 870px;
+      position: relative;
+      background: #fff;
+      padding: 40px;
+      border-top-left-radius: 50px;
+      margin: 30px 0px 0px 0px;
+  }
+  
+  /* SEGUNDA PÁGINA */
+  
+  .cv-container-2 {
+      position: relative;
+      width: 100%;
+      max-width: 900px;
+      min-height: 900px;
+      background: #003147;
+      display: grid;
+      grid-template-columns: 0.9fr 2fr ;
+      margin: 20px 0px 0px 0px;
+  }
+  
+  .cv-container-2 .left_Side-2 {
+      height: 900px;
+      position: relative;
+      background: #003147;
+      padding: 40px;
+  }
+  
+  .cv-container-2 .right_Side-2 {
+      height: 870px;
+      position: relative;
+      background: #fff;
+      padding: 40px;
+      border-top-left-radius: 50px;
+      margin: 30px 0px 0px 0px;
+  }
+
+
+  

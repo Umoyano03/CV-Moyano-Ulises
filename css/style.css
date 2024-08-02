@@ -1,0 +1,165 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Popins', sans-serif;
+}
+
+/* COLORES */
+
+/* background: lightblue; */
+/* background: #003147; */
+
+
+body {
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* PRIMERA PÁGINA */
+
+/* CV */
+.cv-container {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1110px;
+    background: #003147;
+    display: grid;
+    grid-template-columns: 0.9fr 2fr ;
+    margin: 10px 0px 0px 10px;
+}
+
+/* PAGINA IZQUIERDA-1 */
+
+.cv-container .left_Side {
+    height: 1110px;
+    background: #003147;
+    padding: 40px;
+}
+
+/* IMAGEN E INFORMACION PERSONAL */
+
+.cv-container .left_Side .profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 280px;
+    width: 100%;
+    border: 2px solid rgb(109, 112, 255);
+}
+
+.cv-container .left_Side .profile-text .imgCv img {
+    border-radius: 50%;
+    border: 3px solid red;
+    
+}
+
+.cv-container .left_Side .profile-text .infopersonal {
+    color: rgb(173, 173, 173);
+    
+}
+
+/* PERFIL */
+
+.cv-container .left_Side .perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+    border: 3px solid red;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+.cv-container .left_Side h3{
+   color: whitesmoke;
+
+}
+
+
+.cv-container .left_Side p{
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+/* PAGINA DERECHA-1 */
+
+.cv-container .right_Side {
+    height: 1080px;
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    border-top-left-radius: 50px;
+    margin: 30px 0px 0px 0px;
+}
+
+
+
+/* SEGUNDA PÁGINA */
+
+.cv-container-2 {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1110px;
+    background: #003147;
+    display: grid;
+    grid-template-columns: 0.1fr 2fr ;
+    margin: 20px 0px 5px 10px;
+}
+
+.cv-container-2 .left_Side-2 {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.cv-container-2 .right_Side-2 {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+
+
+/* ESTILO-3 PÁGINA */
+
+.cv-container-3 {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #003147;
+    display: grid;
+    grid-template-columns: 2fr 0.1fr ;
+    margin: 20px 0px 30px 0px;
+}
+
+.cv-container-3 .left_Side-3 {
+    height: 970px;
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    margin: 30px 0px 0px 0px;
+    border-top-right-radius: 50px;
+}
+
+.cv-container-3 .right_Side-3 {
+    height: 1000px;
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    
+    
+}
